@@ -1,1 +1,0 @@
-# Tutorial 2 - Adding admixture
