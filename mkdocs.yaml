@@ -1,0 +1,46 @@
+site_name: DIYABC Support Tutorial
+theme:
+  name: material
+  features:
+  - navigation.instant
+  - navigation.tracking
+  - navigation.tabs
+  - navigation.sections
+  - navigation.expand
+  - search.highlight
+  - search.share
+  palette:
+    scheme: default
+    primary: teal
+    accent: teal
+plugins:
+- search
+- awesome-pages
+markdown_extensions:
+- pymdownx.highlight
+- pymdownx.superfences
+- pymdownx.inlinehilite
+- pymdownx.snippets
+- pymdownx.tasklist
+- admonition
+- toc
+- attr_list
+nav:
+- Home: index.md
+- Installation: installation.md
+- Tutorials:
+  - How to approach DIYABC: tutorials/how-to-approach.md
+  - Generate data for  DIYABC: tutorials/generate-data.md
+  - Tutorial 1 - Building vanilla scenarios: tutorials/tutorial-1.md
+  - Tutorial 2 - Adding admixture: tutorials/tutorial-2.md
+- Model Selection:
+  - What is it and why?: model-selection/what-and-why.md
+  - Tutorial: model-selection/model-selection.md
+- Goodness of Fit:
+  - What is it and why?: goodness-of-fit/what-and-why.md
+  - Tutorial: goodness-of-fit/goodness-of-fit.md
+- Parameters Estimation:
+  - What is it and why?: parameter-estimation/what-and-why.md
+  - Tutorial: parameter-estimation/parameter-estimation.md
+- About: about.md
+- Contributing: contributing.md
